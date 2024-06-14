@@ -1,0 +1,135 @@
+body{
+    font-family: "Roboto", sans-serif;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+header{
+    background-color: rgb(162, 162, 219);
+}
+img{
+    width: 100%;
+}
+.servicos{
+    background-color: rgb(199, 199, 235);
+}
+.depoimentos{
+    background-color: rgb(134, 134, 158);
+}
+aside{
+    background-color: rgb(84, 84, 102);
+}
+footer{
+    background-color: rgb(162, 162, 219);
+    padding: 20px 0;
+}
+.servicos h2,
+.depoimentos h2,
+aside h2,
+footer{
+    text-align: center;
+}
+aside a{
+    color: #ddd;
+}
+
+
+/*Página de serviços*/
+.servicos .servicos-disponiveis{
+    background-color: rgb(135, 135, 158);
+}
+.servicos .servicos-disponiveis h2,
+.servicos .servicos-disponiveis p
+{
+    color: rgb(228, 220, 220);
+}
+
+/*Página de Produtos*/
+.produtos{
+    background-color: rgb(199, 199, 235);
+}
+.produtos img{
+    width: 300px;
+}
+
+/*Página de Preços*/
+main{
+    background-color: rgb(77, 245, 245);
+}
+table{
+    width: 100%;
+}
+
+
+/*Página de quem somos*/
+.quem-somos{
+    background-color: rgb(199, 199, 235);
+}
+
+/*Página de FAQ*/
+.faq{
+    background-color: rgb(199, 199, 235);
+}
+.faq dl{
+    background-color: rgb(139, 139, 165);
+    padding: 20px;
+}
+.faq dt{
+    background-color: #7c7a7a;
+    padding: 10px;
+    font-size: 30px;
+}
+.faq dd{
+    background-color: #c5c0c0;
+    font-size: 18px;
+}
+
+/*Página de CADASTRO*/
+form{
+    width: 500px;
+    margin: 0 auto;
+}
+
+form legend{
+    font-size: 25px;
+    font-weight: bold;
+}
+form label{
+    display: block;
+    margin: 5px 0;
+    font-size: 18px;
+}
+form input{
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+}
+form textarea{
+    width: 100%;
+    height: 80px;
+    overflow-y: scroll;
+    border-radius: 5px;
+}
+
+.pagamento div{
+    display: flex;
+    align-items: center;
+}
+.pagamento div input{
+    width: fit-content;
+}
+input[type="submit"]{
+    background-color: #7c7a7a;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: all .3s ease;
+}
+input[type="submit"]:hover{
+    background-color: #646363;
+}
