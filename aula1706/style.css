@@ -1,0 +1,18 @@
+p{
+    color: blue;
+}
+
+.destaque {
+    background-color: yellow;
+    color: red;
+
+}
+.texto-centro{
+    text-align: center;
+}
+
+#paragrafo{
+    background-color: crimson;
+    color: #fff;
+    text-align: right;
+}
