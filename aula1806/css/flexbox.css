@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}  
+
+.container{
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    gap: 5px;
+    
+}
+
+.item-1{
+    width: 24%;
+    background-color: orange;
+}                
+.item-2{
+    width: 24%;
+    background-color: gray;
+}                
+.item-3{
+    width: 24%;
+    background-color: green;
+}                
+.item-4{
+    width: 24%;
+    background-color: red;
+}
+
+@media (max-width: 830px){
+    .item-1{
+        width: 49%;
+        background-color: orange;
+    }                
+    .item-2{
+        width: 49%;
+        background-color: gray;
+    }                
+    .item-3{
+        width: 49%;
+        background-color: green;
+    }                
+    .item-4{
+        width: 49%;
+        background-color: red;
+    }
+}
+
+@media (max-width: 500px){
+    .item-1{
+        width: 100%;
+        background-color: orange;
+    }                
+    .item-2{
+        width: 100%;
+        background-color: gray;
+    }                
+    .item-3{
+        width: 100%;
+        background-color: green;
+    }                
+    .item-4{
+        width: 100%;
+        background-color: red;
+    }
+}
