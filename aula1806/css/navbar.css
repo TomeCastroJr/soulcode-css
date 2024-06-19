@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+html{
+    font-family: "Arial", "Helvetica", sans-serif;
+}
+.navbar{
+    background-color: #0b0f19;
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+}
+.navbar img{
+    height: 100%;
+}
+.nav-links{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.nav-links a{
+    text-decoration: none;
+    color: white;
+}
+.nav-links a:hover{
+    color: #d9b800;
+}
+
+@media (max-width: 480px) {
+    /* - trocar a navbar de row p/ column */
+    /* - redefinir a altura */
+    /* - alinhar os elementos */
+    .navbar {
+        flex-direction: column;
+        height: 150px;
+        align-items: center;
+        gap: 12px;
+    }
+
+    /* - ajustar a largura */
+    .navbar img {
+        width: 156px;
+    }
+
+    /* - row p/ column */
+    .nav-links {
+        flex-direction: column;
+    }
+
+}
+
+.section-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+}
+.section-card{
+    width: 300px;
+    padding: 16px;
+    display: flex;
+    gap: 16px;
+    background-color: wheat;
+}
+.section-card img{
+    width: 120px;
+}
+
+@media (max-width:768px){
+    .section-card{
+        flex-direction: column;
+        gap: 0;
+    }
+    .section-card img{
+        width: 100%;
+    }
+    .section-card p{
+        padding: 16px;
+    }
+}

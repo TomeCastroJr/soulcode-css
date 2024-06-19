@@ -15,7 +15,7 @@ body{
 }
 .cabecalho{
     height: 320px;
-    padding: 56px 24px;
+    padding: 56px 0px;
     background: linear-gradient(0deg, #121212, transparent) ,url("https://images.unsplash.com/photo-1507398941214-572c25f4b1dc?q=80&w=1973&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
     background-size: cover;
     background-repeat: no-repeat;
@@ -61,7 +61,6 @@ input{
 .cronograma{
     width: 100%;
     margin: 0 auto;
-    padding: 20px;
 }
 table{
    width: 100%;
@@ -69,14 +68,12 @@ table{
    margin-bottom: 150px;
 }
 td, th{
-    padding: 5px;
     border: 1px solid #ccc;
 }
 th{
     padding: 12px 0;
     text-align: left;
     background-color: #8d8a8a;
-    padding: 5px;
 }
 
 .contato-whatsapp{
@@ -84,7 +81,6 @@ th{
     height: 56px;
     border-radius: 50%;
     background-color: white;
-    padding: 5px;
     transition: all .3s ease;
 
     position: fixed;
@@ -98,4 +94,29 @@ th{
 }
 .contato-whatsapp:hover{
     filter: invert(1);
+}
+
+@media (max-width: 769px){
+    .titulo{
+        font-size: 2rem;
+    }
+    .descricao{
+        font-size: 1rem;
+    }
+    .btn{
+        border: 2px solid white;
+        border-radius: 8px;
+        padding: 14px 28px;
+        font-size: .7rem;
+        margin: 6px 0;
+        cursor: pointer;
+        transition: all .3s ease;
+    }
+    td, th{
+        font-size: 10px;
+    }
+    th{
+        font-size: 11px;
+        padding: 8px 0;
+    }
 }
