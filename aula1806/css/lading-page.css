@@ -97,6 +97,12 @@ th{
 }
 
 @media (max-width: 769px){
+    .cabecalho{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
     .titulo{
         font-size: 2rem;
     }
