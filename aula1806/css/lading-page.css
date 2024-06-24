@@ -54,6 +54,7 @@ input{
     padding: 12px 20px;
     margin: 8px 0;
     border-radius: 4px;
+    color: black;
 }
 .btn-w100{
     width: 100%;
